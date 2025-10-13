@@ -1,0 +1,25 @@
+# fullscreen-canvas
+
+## usage
+
+```html
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>fullscreen-canvas demo</title></head>
+<body>
+</body>
+<script type="module">
+import { FullscreenCanvas } from "./fullscreen-canvas.js";
+
+document.body.appendChild(new FullscreenCanvas((g, w, h) => {
+  const x = Math.random() * w;
+  const y = Math.random() * h;
+  g.beginPath();
+  g.moveTo(w / 2, h / 2);
+  g.lineTo(x, y);
+  g.strokeStyle = `hsl(${Math.random() * 360} 50% 50%)`;
+  g.stroke();
+}, true));
+
+</script>
+</body></html>
+```
