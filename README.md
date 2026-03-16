@@ -35,4 +35,4 @@ The `FullscreenCanvas` constructor takes two arguments:
 2. `autostart`: a boolean that determines whether the animation should start automatically
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).

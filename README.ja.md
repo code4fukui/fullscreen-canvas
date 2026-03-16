@@ -1,14 +1,11 @@
 # fullscreen-canvas
 
-`fullscreen-canvas`は、画面全体を覆う簡単な HTML5 canvas コンポーネントです。
-
-## デモ
-https://taisukefukuno.github.io/fullscreen-canvas/ で動作確認できます。
+`fullscreen-canvas`は、ウェブブラウザの画面全体を覆う簡単な HTML5 canvas コンポーネントです。
 
 ## 機能
-- 画面全体にキャンバスを表示する
+- ウィンドウ全体にキャンバスを表示する
 - ウィンドウサイズの変更に合わせてキャンバスのサイズを自動調整する
-- 描画処理をカスタマイズできる
+- カスタムの描画処理を定義できる
 
 ## 使い方
 `fullscreen-canvas.js`をモジュールとしてインポートし、`FullscreenCanvas`クラスを使用します。描画処理は`onredraw`コールバック関数で定義できます。
@@ -28,4 +25,4 @@ document.body.appendChild(new FullscreenCanvas((g, w, h) => {
 ```
 
 ## ライセンス
-MITライセンスの下で提供されています。
+このプロジェクトはMITライセンスの下で提供されています。
