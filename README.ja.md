@@ -4,7 +4,7 @@
 
 ## デモ
 
-ライブデモは[こちら](https://taisukef.github.io/fullscreen-canvas/)からご覧いただけます。
+ライブデモはこちら *(demo unavailable)*からご覧いただけます。
 
 デモでは、画面の中央から放射状に広がるカラフルな線を連続して描画します。
 

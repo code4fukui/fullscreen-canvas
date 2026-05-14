@@ -6,7 +6,7 @@ A zero-dependency Web Component that creates an HTML5 canvas that fills the enti
 
 ## Demo
 
-View a live demo [here](https://taisukef.github.io/fullscreen-canvas/).
+View a live demo here *(demo unavailable)*.
 
 The demo draws a continuous stream of colorful lines radiating from the center of the screen.
 
